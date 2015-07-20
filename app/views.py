@@ -7,4 +7,7 @@ def index(request):
     # template = loader.get_template('app/index.html')
     # return HttpResponse(template)
     return render(request, 'app/index.html')
+	
+def form(request):
+	return HttpResponse("ok");
 # Create your views here.
